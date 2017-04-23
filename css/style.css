@@ -1,0 +1,43 @@
+.gap{
+    height: 120px;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header{
+    width: 100%;
+    background: lightskyblue;
+    position: fixed;
+    height: 120px;
+    
+}
+.fix{
+    float: left;
+}
+.nav{
+    float: right;
+}
+
+h2{
+    text-align: center;
+    font-family: 'League Script', cursive;
+    font-size: 50px;
+}
+#hero{
+    width: 100%;
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+li,article{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+footer{
+    background: grey;
+    padding: 10px;
+}
