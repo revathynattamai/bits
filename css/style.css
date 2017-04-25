@@ -1,3 +1,7 @@
+body{
+    background: #7E8F7C;
+}
+
 .gap{
     height: 120px;
     color: white;
@@ -32,12 +36,26 @@ h2{
 }
 h1{
     font-family: 'Lobster', cursive;
+    color:#C63D0F
 }
-li,article{
+li,p{
     font-family: 'Bree Serif', serif;
     font-size: 20px;
+}
+.ao{
+    font-family: 'Rationale', sans-serif;
+    font-size: 20px;
+    color: blue;
+    background: pink;
 }
 footer{
     background: grey;
     padding: 10px;
+}
+h3{
+    color: red;
+}
+
+.g1{
+    background: palevioletred;
 }
