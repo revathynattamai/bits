@@ -1,6 +1,6 @@
 
 .gap{
-    height: 120px;
+    height: 100px;
     
 }
 
@@ -10,7 +10,7 @@
 
 header{
     width: 100%;
-    background: lightskyblue;
+    /*background: lightskyblue;*/
     position: fixed;
     height: 120px;
     
@@ -22,18 +22,36 @@ nav,li{
     float: right;
     list-style-type: none;
   text-decoration: none;
+  padding-right: 10px;
   
+}
+.co{
+    background: lightskyblue;
 }
 
 
 h2{
     text-align: center;
     font-family: 'Lobster', cursive;;
-    color:#C63D0F;
+    color:#FFF3C6;
     font-size: 20px;
 }
-#hero{
-    width: 100%;
+.hero{
+    height: 100%;
+    background-image: url("/home/user/workspace/intro_960/image/hero.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    text-align: center;
+    /*color: #E5952D;*/
+    color: #FBF5F3;
+    /*font-size: 50px;*/
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+    
+}
+.hero>div{
+    padding-top:8em;
 }
 
 li,p{
@@ -50,9 +68,9 @@ footer{
     background: grey;
     padding: 10px;
 }
-h3{
+/*h3{
     color: red;
-}
+}*/
 
 .g1{
     background: palevioletred;
@@ -69,4 +87,7 @@ h3{
 }
 strong{
     font-size: 20px;
+}
+.hero{
+     background-image:"image/hero.jpg";
 }
